@@ -1,0 +1,47 @@
+.search-bar{
+    display: block;
+}
+.thumbnail{
+    width: 300px;
+    display: block;
+    /* height: 300px;
+    object-fit: contain;
+    border: 2px;
+    border-style: solid;
+    border-color: red;
+    object-position: top; */
+}
+.video-title{
+    width: 300px;
+}
+.video-author{
+    display: block;
+}
+.video-stats{
+ display: block;   
+}
+.video-prev{
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    margin-right: 15px;
+}
+.video-prev-l1{
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    margin-right: 15px;
+}
+.video-prev-l2{
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    margin-right: 15px;
+}
+
+.video-prev-l3{
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    margin-right: 15px;
+}
