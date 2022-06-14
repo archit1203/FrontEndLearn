@@ -1,3 +1,9 @@
+p{
+    display: inline-block;
+}
+div{
+    display: inline-block;
+}
 .search-bar{
     display: block;
 }
@@ -12,36 +18,102 @@
     object-position: top; */
 }
 .video-title{
-    width: 300px;
+    width: 230px;
+    display: inline-block;
+    background-color: red;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    vertical-align: top;
 }
 .video-author{
-    display: block;
+    display: inline-block;   
+    width: 230px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color: aqua;
 }
 .video-stats{
- display: block;   
+    display: inline;   
+    width: 230px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color: aqua;
 }
 .video-prev{
     display: inline-block;
     width: 300px;
     vertical-align: top;
     margin-right: 15px;
+    background-color: gray;
 }
-.video-prev-l1{
+.video-prev-l1-1{
     display: inline-block;
     width: 300px;
     vertical-align: top;
     margin-right: 15px;
+    margin-bottom: 10px;
 }
-.video-prev-l2{
-    display: inline-block;
+.video-prev-l1-2{
+    display: inline;
+    /* height: 100px; */
     width: 300px;
     vertical-align: top;
     margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: black;
 }
+.channel-pic{
+    width: 45px;
+    display: inline-block;
+}
+.video-prev-l2-1{
+    display: inline;
+    width: 48px;
+    height: 100px;
+    vertical-align: top;
+    background-color: blue;
+}
+.video-prev-l2-2{
+    display: inline;
+    height: 100px;
+    background-color: yellow;
+}
+.video-prev-l3-1{
+    display: inline-block;
+}
+.video-prev-l3-2{
+    display: inline-block;
+}
+.video-prev-l3-3{
+    display: inline-block;
+}
+/* .video-prev-l2-2{
+    display: inline-block;
+    width: 250px;
+    height: 100px;
+    vertical-align: top;
+    background-color: red;
+} */
 
-.video-prev-l3{
+/* .video-prev-l3-1{
     display: inline-block;
-    width: 300px;
+    width: 250px;
     vertical-align: top;
     margin-right: 15px;
+    background-color: green;
 }
+.video-prev-l3-2{
+    display: inline-block;
+    width: 250px;
+    vertical-align: top;
+    margin-right: 15px;
+    background-color: green;
+}
+.video-prev-l3-3{
+    display: inline-block;
+    width: 250px;
+    vertical-align: top;
+    margin-right: 15px;
+    background-color: green;
+} */
