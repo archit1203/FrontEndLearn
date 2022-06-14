@@ -1,48 +1,106 @@
 p{
-    display: inline-block;
-}
-div{
-    display: inline-block;
+    font-family: Roboto, Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .search-bar{
     display: block;
 }
+.video-prev{
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    margin-right: 15px;
+}
 .thumbnail{
     width: 300px;
     display: block;
-    /* height: 300px;
+}
+.video-title{
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.video-author , .video-stats{
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+}
+.video-author{
+    margin-bottom: 4px;
+}
+.channel-pic{
+    width: 40px;
+    border-radius: 50px;
+}
+.channel-picture{
+    width: 48px;
+    vertical-align: top;
+    display: inline-block;
+}
+.video-info{
+    width: 200px;
+    display: inline-block;
+}
+.thumbnail-row{
+    margin-bottom: 12px;
+}
+/*
+.thumbnail{
+    width: 330px;
+    display: block;
+    height: 300px;
     object-fit: contain;
     border: 2px;
     border-style: solid;
     border-color: red;
-    object-position: top; */
+    object-position: top;
 }
 .video-title{
-    width: 230px;
-    display: inline-block;
+    display: inline;
+    font-weight: bold;
     background-color: red;
     margin-bottom: 0px;
-    padding-bottom: 0px;
-    margin: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-bottom: 00px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
     vertical-align: top;
 }
 .video-author{
-    display: inline-block;   
+    display: inline;   
+    font-family: ;
     width: 230px;
     margin-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
     padding-bottom: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
     background-color: aqua;
 }
 .video-stats{
     display: inline;   
     width: 230px;
     margin-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
     padding-bottom: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
     background-color: aqua;
 }
 .video-prev{
     display: inline-block;
-    width: 300px;
+    width: 310px;
     vertical-align: top;
     margin-right: 15px;
     background-color: gray;
@@ -51,12 +109,11 @@ div{
     display: inline-block;
     width: 300px;
     vertical-align: top;
-    margin-right: 15px;
     margin-bottom: 10px;
 }
 .video-prev-l1-2{
-    display: inline;
-    /* height: 100px; */
+    display: inline-block;
+    height: 100px;
     width: 300px;
     vertical-align: top;
     margin-right: 15px;
@@ -65,43 +122,37 @@ div{
 }
 .channel-pic{
     width: 45px;
-    display: inline-block;
+    display: inline;
+    border-radius: 50%;
 }
 .video-prev-l2-1{
     display: inline;
     width: 48px;
-    height: 100px;
+    height: 80px;
     vertical-align: top;
     background-color: blue;
 }
 .video-prev-l2-2{
-    display: inline;
-    height: 100px;
+    display: inline-block;
+    height: 112px;
+    width: 48;
     background-color: yellow;
 }
-.video-prev-l3-1{
-    display: inline-block;
-}
-.video-prev-l3-2{
-    display: inline-block;
-}
-.video-prev-l3-3{
-    display: inline-block;
-}
-/* .video-prev-l2-2{
+.video-prev-l2-2{
     display: inline-block;
     width: 250px;
-    height: 100px;
+    height: 80px;
     vertical-align: top;
     background-color: red;
-} */
+}
 
-/* .video-prev-l3-1{
+.video-prev-l3-1{
     display: inline-block;
-    width: 250px;
+    width: 280px;
     vertical-align: top;
     margin-right: 15px;
     background-color: green;
+    margin-bottom: 10px;
 }
 .video-prev-l3-2{
     display: inline-block;
