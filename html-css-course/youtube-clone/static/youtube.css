@@ -38,13 +38,19 @@ p{
     width: 48px;
     vertical-align: top;
     display: inline-block;
+    background-color: gray;
 }
 .video-info{
     width: 240px;
     display: inline-block;
+    background-color: pink;
 }
 .thumbnail-row{
     margin-bottom: 12px;
+}
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
 }
 /*
 .thumbnail{
