@@ -6,8 +6,18 @@
 }
 
 .left{
-    width: 150px;
-    background-color: pink;
+    display: flex;
+    /* width: 150px; */
+    align-items: center;
+    /* background-color: pink; */
+}
+.ham-menu{
+    margin-left: 24px;
+    margin-right: 24px;
+    height: 24px;
+}
+.yt-logo{
+    height: 20px;
 }
 
 .mid{
@@ -16,6 +26,25 @@
     margin-left: 70px;
     margin-right: 30px;
     max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+.search-bar{
+    flex:1;
+    height: 34px;
+}
+.search-bar::placeholder{
+    font-family: Roboto, Arial;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.search-btn{
+    height: 40px;
+    width: 60px;
+}
+.voice-btn{
+    height: 40px;
+    width: 40px;
 }
 
 .right{
