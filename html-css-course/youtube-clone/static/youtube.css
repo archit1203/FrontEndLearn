@@ -7,14 +7,14 @@ p{
     display: block;
 }
 .video-prev{
-    display: inline-block;
+    /* display: inline-block;
     width: 300px;
     vertical-align: top;
-    margin-right: 15px;
+    margin-right: 15px; */
+    background-color: blue;
 }
 .thumbnail{
-    width: 300px;
-    display: block;
+    width: 100%;
 }
 .video-title{
     margin-top: 0px;
@@ -51,6 +51,12 @@ p{
 .video-info-grid{
     display: grid;
     grid-template-columns: 50px 1fr;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 40px;
 }
 /*
 .thumbnail{
